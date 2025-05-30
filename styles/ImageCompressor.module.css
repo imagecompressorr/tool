@@ -1,0 +1,75 @@
+.compressor {
+  background: #fff;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0001;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.uploadArea {
+  border: 2px dashed #76a9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  color: #2257bf;
+  cursor: pointer;
+  background: #f7fbff;
+  margin-bottom: 1.5rem;
+  transition: border-color .2s;
+}
+.uploadArea:hover {
+  border-color: #2257bf;
+}
+
+.sliderContainer {
+  margin: 1rem 0;
+  text-align: center;
+}
+input[type="range"] {
+  width: 70%;
+}
+.compressBtn, .downloadBtn {
+  margin-top: 1rem;
+  background: #2257bf;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background .2s;
+}
+.compressBtn:disabled {
+  background: #c0d6ee;
+  cursor: not-allowed;
+}
+.compressBtn:hover:not(:disabled), .downloadBtn:hover {
+  background: #1b4288;
+}
+.error {
+  color: #d32f2f;
+  margin: 1rem 0;
+  font-weight: bold;
+  text-align: center;
+}
+.previewSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.previewBlock {
+  width: 220px;
+  background: #f5f6fa;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 1px 4px #0001;
+}
+.previewImg {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: .5rem;
+}
